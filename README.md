@@ -26,5 +26,4 @@
 
 | 🧑‍💻 | ✏️ |
 |--|--| 
-|![brunoannunciato](https://avatars.githubusercontent.com/u/26882104?v=4&s=48)  | *Um comentário de teste* |
-|  | @brunoannunciato <br> *Senior front-end developer @ Itaú* |
+

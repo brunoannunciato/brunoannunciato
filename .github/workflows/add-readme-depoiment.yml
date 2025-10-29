@@ -25,9 +25,8 @@ jobs:
             echo -e "\n## What they say about me\n" >> README.md
           fi
 
-          echo -e "> *${ISSUE_BODY}*\n" >> README.md
-          echo -e "**By:** @${ISSUE_AUTHOR}\n" >> README.md
-          echo -e "---\n" >> README.md
+          echo -e "> *${ISSUE_BODY}*" >> README.md
+          echo -e "> **By:** @${ISSUE_AUTHOR}\n" >> README.md
 
       - name: commit and push changes
         run: |

@@ -35,3 +35,9 @@
 > *Isso é outro teste*
 > **By:** @brunoannunciato
 
+|![linux](https://skillicons.dev/icons?i=linux)  |*Isso aqui é só um teste* |
+
+|--|--|
+
+|  | @brunoannunciato <br> *Desenvolvedor de software* |
+

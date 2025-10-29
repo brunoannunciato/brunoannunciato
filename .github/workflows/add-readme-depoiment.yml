@@ -20,10 +20,17 @@ jobs:
         run: |
           ISSUE_BODY=$(jq -r .issue.body "$GITHUB_EVENT_PATH")
           ISSUE_AUTHOR=$(jq -r .issue.user.login "$GITHUB_EVENT_PATH")
-
-          echo -e "|![linux](https://skillicons.dev/icons?i=linux)  |*${ISSUE_BODY}* |" >> README.md
+          USER_DATA=$(curl -s "https://api.github.com/users/${ISSUE_AUTHOR}")
+          AVATAR_URL=$(echo "$USER_DATA" | jq -r .avatar_url)
+          BIO=$(echo "$USER_DATA" | jq -r .bio)
+          
+          if [ "$BIO" == "null" ] || [ -z "$BIO" ]; then
+            BIO=""
+          fi
+          
+          echo -e "|![${ISSUE_AUTHOR}](${AVATAR_URL}&s=48)  |*${ISSUE_BODY}* |" >> README.md
           echo -e "|--|--|" >> README.md
-          echo -e "|  | @${ISSUE_AUTHOR} <br> *Desenvolvedor de software* |" >> README.md
+          echo -e "|  | @${ISSUE_AUTHOR} <br> *${BIO}* |" >> README.md
 
       - name: commit and push changes
         run: |

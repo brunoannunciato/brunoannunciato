@@ -27,3 +27,6 @@
 |![brunoannunciato](https://avatars.githubusercontent.com/u/26882104?v=4&s=48)  | *The first comment* |
 |--|--|
 | 🇧🇷 | @brunoannunciato <br> *Senior front-end developer @ Itaú* |
+|![brunoannunciato](https://avatars.githubusercontent.com/u/26882104?v=4&s=48)  | *test* |
+|--|--|
+| 🇧🇷 | @brunoannunciato <br> *Senior front-end developer @ Itaú* |

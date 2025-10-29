@@ -24,3 +24,5 @@
 ### What they are saying about me:
 *If you want to add your thoughts here, please create an issue in [this repository](https://github.com/brunoannunciato/brunoannunciato)* <br>
 
+| 🧑‍💻 | ✏️ |
+|--|--| 

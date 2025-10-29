@@ -1,0 +1,20 @@
+name: ✏️ New depoiment
+description: Add a depoiment to my profile readme
+title: "Type your depoiment below to add it to my profile"
+labels: ["Depoiment"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+
+  - type: dropdown
+    id: language
+    attributes:
+      label: Depoiment language
+      description: Please select the primary language of your depoiment.
+      options:
+        - EN-US
+        - PT-BR
+    validations:
+      required: true

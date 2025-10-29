@@ -4,10 +4,6 @@ title: "Type your depoiment below to add it to my profile"
 labels: ["Depoiment"]
 
 body:
-  - type: markdown
-    attributes:
-      value: |
-
   - type: dropdown
     id: language
     attributes:

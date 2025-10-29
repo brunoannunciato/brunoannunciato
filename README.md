@@ -30,3 +30,6 @@
 |![brunoannunciato](https://avatars.githubusercontent.com/u/26882104?v=4&s=48)  | *test* |
 |--|--|
 | 🇧🇷 | @brunoannunciato <br> *Senior front-end developer @ Itaú* |
+|![brunoannunciato](https://avatars.githubusercontent.com/u/26882104?v=4&s=48)  | *new issue* |
+|--|--|
+| 🇧🇷 | @brunoannunciato <br> *Senior front-end developer @ Itaú* |

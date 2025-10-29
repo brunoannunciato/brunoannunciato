@@ -26,6 +26,6 @@
 
 | 🧑‍💻 | ✏️ |
 |--|--|
-| <img src="https://avatars.githubusercontent.com/u/30263808?v=4&s=48" width="48" style="width: 48px;"> | *Um cara super estudioso, dedicado e sempre interessado em conhecer novas tecnologias. <br> Sempre que tiver um problema, ele terá a solução.* <br><br> @cceloto |
+| <img src="https://avatars.githubusercontent.com/u/30263808?v=4&s=48" width="48" style="width: 48px;"> <br>                    | *Um cara super estudioso, dedicado e sempre interessado em conhecer novas tecnologias. <br> Sempre que tiver um problema, ele terá a solução.* <br><br> @cceloto |
 |![gfpaiva](https://avatars.githubusercontent.com/u/11557474?v=4&s=48)  | *Working with Bruno is a real asset to any team. He is a professional who embodies constant evolution and delivers high-level technical quality. His superpower, however, is his interpersonal quality, demonstrated by his great ease in communication and collaboration. Furthermore, the blend of his curious and creative nature means he not only seeks knowledge, but also transforms it into efficient solutions, making him one of the most effective and inspiring co-workers I have had the pleasure of working with.* <br><br> @gfpaiva <br> *Front-end / Web-developer* |
 

@@ -14,3 +14,12 @@ body:
         - PT-BR
     validations:
       required: true
+  - type: textarea
+    id: issue_body
+    attributes:
+      label: "Your depoiment"
+      description: "Write the depoiment that will be added to the profile readme."
+      placeholder: "Write your depoiment here..."
+    validations:
+      required: true
+      min_length: 10

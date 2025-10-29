@@ -27,10 +27,17 @@ jobs:
           if [ "$BIO" == "null" ] || [ -z "$BIO" ]; then
             BIO=""
           fi
+
+          LANGUAGE=$(echo "${{ github.event.issue.body }}" | grep -A 1 "### Depoiment language" | tail -n 1 | tr -d '\r')
+          if [ "$LANGUAGE" == "EN-US" ]; then
+            FLAG="🇺🇸"
+          else
+            FLAG="🇧🇷"
+          fi
           
-          echo -e "|![${ISSUE_AUTHOR}](${AVATAR_URL}&s=48)  |*${ISSUE_BODY}* |" >> README.md
+          echo -e "|![${ISSUE_AUTHOR}](${AVATAR_URL}&s=48)  | *${ISSUE_BODY}* |" >> README.md
           echo -e "|--|--|" >> README.md
-          echo -e "|  | @${ISSUE_AUTHOR} <br> *${BIO}* | \n" >> README.md
+          echo -e "| ${FLAG} | @${ISSUE_AUTHOR} <br> *${BIO}* |" >> README.md
 
       - name: commit and push changes
         run: |

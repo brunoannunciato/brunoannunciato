@@ -4,16 +4,6 @@ title: "Type your depoiment below to add it to my profile"
 labels: ["Depoiment"]
 
 body:
-  - type: dropdown
-    id: language
-    attributes:
-      label: Depoiment language
-      description: Please select the primary language of your depoiment.
-      options:
-        - EN-US
-        - PT-BR
-    validations:
-      required: true
   - type: textarea
     id: issue_body
     attributes:
@@ -23,3 +13,13 @@ body:
     validations:
       required: true
       min_length: 10
+  # - type: dropdown
+  #   id: language
+  #   attributes:
+  #     label: Depoiment language
+  #     description: Please select the primary language of your depoiment.
+  #     options:
+  #       - EN-US
+  #       - PT-BR
+  #   validations:
+  #     required: true

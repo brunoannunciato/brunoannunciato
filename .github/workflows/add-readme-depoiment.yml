@@ -28,19 +28,9 @@ jobs:
             BIO=""
           fi
 
-          LANGUAGE=$(echo "$ISSUE_BODY" | awk 'BEGIN{found=0} /^### *[Dd]epoiment *language/ {found=1; next} found && NF {print; exit}' | tr -d '\r' | xargs || true)
-
-          echo "debug: LANGUAGE=$LANGUAGE"
-
-          if [ "$LANGUAGE" == "EN-US" ]; then
-            FLAG="🇺🇸"
-          else
-            FLAG="🇧🇷"
-          fi
-          
           echo -e "|![${ISSUE_AUTHOR}](${AVATAR_URL}&s=48)  | *${ISSUE_BODY}* |" >> README.md
           echo -e "|--|--|" >> README.md
-          echo -e "| ${FLAG} | @${ISSUE_AUTHOR} <br> *${BIO}* |" >> README.md
+          echo -e "|  | @${ISSUE_AUTHOR} <br> *${BIO}* |" >> README.md
 
       - name: commit and push changes
         run: |

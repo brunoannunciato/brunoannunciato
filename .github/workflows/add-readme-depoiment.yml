@@ -18,7 +18,7 @@ jobs:
 
       - name: Add content to readme
         run: |
-          ISSUE_BODY=$(echo "${{ github.event.issue.body }}" | awk '/### Your depoiment/{flag=1; next} flag')
+          ISSUE_BODY=$(echo "${{ github.event.issue.body }}" | awk '/### Your depoiment/{flag=1; next} flag' | sed '1{/^$/d;}')
           ISSUE_AUTHOR=$(jq -r .issue.user.login "$GITHUB_EVENT_PATH")
           USER_DATA=$(curl -s "https://api.github.com/users/${ISSUE_AUTHOR}")
           AVATAR_URL=$(echo "$USER_DATA" | jq -r .avatar_url)

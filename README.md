@@ -27,8 +27,3 @@
 | 🧑‍💻 | ✏️ |
 |--|--|
 |![cceloto](https://avatars.githubusercontent.com/u/30263808?v=4&s=48)  | *Um cara super estudioso, dedicado e sempre interessado em conhecer novas tecnologias. <br> Sempre que tiver um problema, ele terá a solução.* <br><br> @cceloto |
-|![cceloto](https://avatars.githubusercontent.com/u/30263808?v=4&s=48)  | *Teste
-<img width=696 height=423 alt=Image src=https://github.com/user-attachments/assets/3ff7ba05-e94a-4080-8cc7-acea459feb2a />
-Teste 2
-<img width=300 height=168 alt=Image src=https://github.com/user-attachments/assets/5c840e6e-5ea3-4c2f-bed5-84d61baa86b6 />
-Teste 3* <br><br> @cceloto <br> ** |

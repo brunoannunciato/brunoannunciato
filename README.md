@@ -41,3 +41,6 @@
 
 |  | @brunoannunciato <br> *Desenvolvedor de software* |
 
+|![linux](https://skillicons.dev/icons?i=linux)  |*Ihuuu que maneiro* |
+|--|--|
+|  | @brunoannunciato <br> *Desenvolvedor de software* |

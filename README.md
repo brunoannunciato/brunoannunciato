@@ -28,7 +28,7 @@
 
 > *Isso é um teste*
 
-**By:** @brunoannunciato
+> **By:** @brunoannunciato
 
 ---
 

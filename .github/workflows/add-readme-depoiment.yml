@@ -2,7 +2,7 @@ name: Add Issue Content to README
 
 on:
   issues:
-    types: [closed]
+    types: [opened]
 
 jobs:
   update-readme:
@@ -21,12 +21,9 @@ jobs:
           ISSUE_BODY=$(jq -r .issue.body "$GITHUB_EVENT_PATH")
           ISSUE_AUTHOR=$(jq -r .issue.user.login "$GITHUB_EVENT_PATH")
 
-          if ! grep -q "## What they say about me" README.md; then
-            echo -e "\n## What they say about me\n" >> README.md
-          fi
-
-          echo -e "> *${ISSUE_BODY}*" >> README.md
-          echo -e "> **By:** @${ISSUE_AUTHOR}\n" >> README.md
+          echo -e "|![linux](https://skillicons.dev/icons?i=linux)  |*${ISSUE_BODY}* |\n" >> README.md
+          echo -e "|--|--|\n" >> README.md
+          echo -e "|  | @${ISSUE_AUTHOR} <br> *Desenvolvedor de software* |\n" >> README.md
 
       - name: commit and push changes
         run: |

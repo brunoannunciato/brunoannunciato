@@ -21,9 +21,9 @@ jobs:
           ISSUE_BODY=$(jq -r .issue.body "$GITHUB_EVENT_PATH")
           ISSUE_AUTHOR=$(jq -r .issue.user.login "$GITHUB_EVENT_PATH")
 
-          echo -e "|![linux](https://skillicons.dev/icons?i=linux)  |*${ISSUE_BODY}* |\n" >> README.md
-          echo -e "|--|--|\n" >> README.md
-          echo -e "|  | @${ISSUE_AUTHOR} <br> *Desenvolvedor de software* |\n" >> README.md
+          echo -e "|![linux](https://skillicons.dev/icons?i=linux)  |*${ISSUE_BODY}* |" >> README.md
+          echo -e "|--|--|" >> README.md
+          echo -e "|  | @${ISSUE_AUTHOR} <br> *Desenvolvedor de software* |" >> README.md
 
       - name: commit and push changes
         run: |

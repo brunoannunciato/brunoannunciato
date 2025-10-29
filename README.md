@@ -28,13 +28,7 @@
 |--|--|
 |  | @brunoannunciato <br> *Senior front-end developer @ Itaú* | 
 
-|![brunoannunciato](https://avatars.githubusercontent.com/u/26882104?v=4&s=48)  |*### Depoiment language
-
-PT-BR
-
-### Your depoiment
-
-Isso é um novo comentário* |
+|![brunoannunciato](https://avatars.githubusercontent.com/u/26882104?v=4&s=48)  |*Isso é um novo comentário* |
 |--|--|
 |  | @brunoannunciato <br> *Senior front-end developer @ Itaú* | 
 

@@ -32,3 +32,7 @@
 |--|--|
 |  | @brunoannunciato <br> *Senior front-end developer @ Itaú* | 
 
+|![brunoannunciato](https://avatars.githubusercontent.com/u/26882104?v=4&s=48)  |*Mais um comentário* |
+|--|--|
+|  | @brunoannunciato <br> *Senior front-end developer @ Itaú* | 
+

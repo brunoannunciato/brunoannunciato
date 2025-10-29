@@ -1,0 +1,42 @@
+name: Add Issue Content to README
+
+on:
+  issues:
+    types: [closed]
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      issues: read
+
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: Add content to readme
+        run: |
+          ISSUE_BODY=$(jq -r .issue.body "$GITHUB_EVENT_PATH")
+          ISSUE_AUTHOR=$(jq -r .issue.user.login "$GITHUB_EVENT_PATH")
+
+          if ! grep -q "## What they say about me" README.md; then
+            echo -e "\n## What they say about me\n" >> README.md
+          fi
+
+          echo -e "> *${ISSUE_BODY}*\n" >> README.md
+          echo -e "**By:** @${ISSUE_AUTHOR}\n" >> README.md
+          echo -e "---\n" >> README.md
+
+      - name: commit and push changes
+        run: |
+          git config --global user.name 'brunoannunciato'
+          git config --global user.email 'brunobannunciato@gmail.com'
+
+          git add README.md
+
+          ISSUE_NUMBER=$(jq -r .issue.number "$GITHUB_EVENT_PATH")
+          git commit -m ":sparkles: new depoiment added from issue #${ISSUE_NUMBER}"
+
+          git push

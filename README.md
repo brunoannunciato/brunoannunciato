@@ -24,19 +24,3 @@
 ### What they are saying about me:
 *If you want to add your thoughts here, please create an issue in [this repository](https://github.com/brunoannunciato/brunoannunciato)* <br>
 
-|![brunoannunciato](https://avatars.githubusercontent.com/u/26882104?v=4&s=48)  |*Isso é muito maneiro! Eu amei!* |
-|--|--|
-|  | @brunoannunciato <br> *Senior front-end developer @ Itaú* | 
-
-|![brunoannunciato](https://avatars.githubusercontent.com/u/26882104?v=4&s=48)  |*Isso é um novo comentário* |
-|--|--|
-|  | @brunoannunciato <br> *Senior front-end developer @ Itaú* | 
-
-|![brunoannunciato](https://avatars.githubusercontent.com/u/26882104?v=4&s=48)  |*Mais um comentário* |
-|--|--|
-|  | @brunoannunciato <br> *Senior front-end developer @ Itaú* | 
-
-|![brunoannunciato](https://avatars.githubusercontent.com/u/26882104?v=4&s=48)  |*vruuum* |
-|--|--|
-|  | @brunoannunciato <br> *Senior front-end developer @ Itaú* | 
-

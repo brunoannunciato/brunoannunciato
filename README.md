@@ -7,12 +7,12 @@
 
 ---
 
-**Here you will find projects made with the technologies below:**
+**Here you will find projects made with the technologies below**
 
 ![html,css,js,react,git,nodejs,sass,vite,gatsby,nextjs,express,babel,bootstrap,docker,jquery,md,less,mysql,php,tailwind,threejs,ts,wordpress,npm,yarn](https://skillicons.dev/icons?i=html,css,js,ts,react,git,nodejs,sass,vite,gatsby,nextjs,express,babel,bootstrap,docker,jest,jquery,md,less,mysql,php,tailwind,threejs,wordpress,npm,yarn)
 
 
-**Below are some technologies that I am studying**
+**Here are some technologies that I am studying**
 
 ![go,docker,aws,mysql](https://skillicons.dev/icons?i=go,docker,aws,mysql)
 

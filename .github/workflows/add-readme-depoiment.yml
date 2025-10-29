@@ -30,7 +30,7 @@ jobs:
           
           echo -e "|![${ISSUE_AUTHOR}](${AVATAR_URL}&s=48)  |*${ISSUE_BODY}* |" >> README.md
           echo -e "|--|--|" >> README.md
-          echo -e "|  | @${ISSUE_AUTHOR} <br> *${BIO}* |" >> README.md
+          echo -e "|  | @${ISSUE_AUTHOR} <br> *${BIO}* | \n" >> README.md
 
       - name: commit and push changes
         run: |

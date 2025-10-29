@@ -24,4 +24,6 @@
 ### What they are saying about me:
 *If you want to add your thoughts here, please create an issue in [this repository](https://github.com/brunoannunciato/brunoannunciato)*
 
-## What they say about me
+## What they say about me|![brunoannunciato](https://avatars.githubusercontent.com/u/26882104?v=4&s=48)  |*Lorem ipsum zeze Um novo comentário maneiro* |
+|--|--|
+|  | @brunoannunciato <br> *Senior front-end developer @ Itaú* |

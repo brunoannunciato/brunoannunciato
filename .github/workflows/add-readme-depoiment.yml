@@ -28,7 +28,7 @@ jobs:
             BIO=""
           fi
 
-          LANGUAGE=$(echo "${{ github.event.issue.body }}" | grep -A 1 "### Depoiment language" | tail -n 1 | tr -d '\r')
+          LANGUAGE=$(echo "$ISSUE_BODY" | awk 'BEGIN{found=0} /^### *[Dd]epoiment *language/ {found=1; next} found && NF {print; exit}' | tr -d '\r' | xargs || true)
 
           echo "debug: LANGUAGE=$LANGUAGE"
 

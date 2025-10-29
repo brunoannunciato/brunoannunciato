@@ -25,22 +25,3 @@
 *If you want to add your thoughts here, please create an issue in [this repository](https://github.com/brunoannunciato/brunoannunciato)*
 
 ## What they say about me
-
-> *Isso é um teste*
-
-> **By:** @brunoannunciato
-
----
-
-> *Isso é outro teste*
-> **By:** @brunoannunciato
-
-|![linux](https://skillicons.dev/icons?i=linux)  |*Isso aqui é só um teste* |
-
-|--|--|
-
-|  | @brunoannunciato <br> *Desenvolvedor de software* |
-
-|![linux](https://skillicons.dev/icons?i=linux)  |*Ihuuu que maneiro* |
-|--|--|
-|  | @brunoannunciato <br> *Desenvolvedor de software* |

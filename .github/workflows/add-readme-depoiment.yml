@@ -29,6 +29,9 @@ jobs:
           fi
 
           LANGUAGE=$(echo "${{ github.event.issue.body }}" | grep -A 1 "### Depoiment language" | tail -n 1 | tr -d '\r')
+
+          echo "debug: LANGUAGE=$LANGUAGE"
+
           if [ "$LANGUAGE" == "EN-US" ]; then
             FLAG="🇺🇸"
           else

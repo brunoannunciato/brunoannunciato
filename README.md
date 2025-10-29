@@ -27,3 +27,4 @@
 | 🧑‍💻 | ✏️ |
 |--|--|
 |![cceloto](https://avatars.githubusercontent.com/u/30263808?v=4&s=48)  | *Um cara super estudioso, dedicado e sempre interessado em conhecer novas tecnologias. <br> Sempre que tiver um problema, ele terá a solução.* <br><br> @cceloto |
+|![brunoannunciato](https://avatars.githubusercontent.com/u/26882104?v=4&s=48)  | *Teste de mensagem<br><br>Com quebra de linha* <br><br> @brunoannunciato <br> *Senior front-end developer @ Itaú* |

@@ -1,7 +1,7 @@
 
 # Hello, there! I'm
 
-<img  width="717"  height="81"  alt="Bruno Annunciato"  src="https://github.com/user-attachments/assets/26bb5e4d-d6b4-498e-9eaa-d0d67ef2dd43" />
+<img  width="717"  height="81"  alt="Bruno Annunciato"  src="assets/bruno-annunciato.png" />
 
 ### Senior front-end developer and shortcut crafter from Brazil
 

@@ -11,6 +11,7 @@ jobs:
     permissions:
       contents: write
       issues: read
+      pull-requests: write
 
     steps:
       - name: Checkout do repositório
@@ -31,14 +32,16 @@ jobs:
 
           echo -e "|![${ISSUE_AUTHOR}](${AVATAR_URL}&s=48)  | *${ISSUE_BODY}* <br><br> @${ISSUE_AUTHOR} <br> *${BIO}* |" >> README.md
 
-      - name: commit and push changes
-        run: |
-          git config --global user.name 'brunoannunciato'
-          git config --global user.email 'brunobannunciato@gmail.com'
-
-          git add README.md
-
-          ISSUE_NUMBER=$(jq -r .issue.number "$GITHUB_EVENT_PATH")
-          git commit -m ":sparkles: new depoiment added from issue #${ISSUE_NUMBER}"
-
-          git push
+      - name: Create Pull Request
+        id: cpr
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: ":sparkles: new depoiment added from issue #${{ github.event.issue.number }}"
+          title: 'New depoiment from @${{ github.event.issue.user.login }}'
+          body: |
+            This PR adds a new depoiment from @${{ github.event.issue.user.login }}.
+            Closes #${{ github.event.issue.number }}
+          branch: "depoiment-issue-${{ github.event.issue.number }}"
+          base: "main"
+          labels: depoiment

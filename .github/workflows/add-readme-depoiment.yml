@@ -10,7 +10,7 @@ jobs:
 
     permissions:
       contents: write
-      issues: read
+      issues: write
       pull-requests: write
 
     steps:
@@ -45,3 +45,9 @@ jobs:
           branch: "depoiment-issue-${{ github.event.issue.number }}"
           base: "main"
           labels: depoiment
+
+      - name: Close issue
+        uses: peter-evans/close-issue@v3
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          comment: "PR created: ${{ steps.cpr.outputs.pull-request-url }}"

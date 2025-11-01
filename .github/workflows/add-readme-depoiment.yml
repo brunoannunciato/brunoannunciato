@@ -14,7 +14,7 @@ jobs:
       pull-requests: write
 
     steps:
-      - name: Checkout do repositório
+      - name: Repository checkout
         uses: actions/checkout@v4
 
       - name: Add content to readme
@@ -30,7 +30,7 @@ jobs:
             BIO=""
           fi
 
-          echo -e "|![${ISSUE_AUTHOR}](${AVATAR_URL}&s=48)  | *${ISSUE_BODY}* <br><br> @${ISSUE_AUTHOR} <br> *${BIO}* |" >> README.md
+          echo -e "|![${ISSUE_AUTHOR}](${AVATAR_URL}&s=48)  | *${ISSUE_BODY}* <br><br> <a href='https://github.com/${ISSUE_AUTHOR}' target='_blank'>@${ISSUE_AUTHOR}</a> <br> *${BIO}* |" >> README.md
 
       - name: Create Pull Request
         id: cpr

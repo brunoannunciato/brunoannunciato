@@ -1,7 +1,7 @@
 
 # Hello, there! I'm
 
-<img  width="717"  height="81"  alt="Bruno Annunciato"  src="assets/bruno-annunciato-roxo.png" />
+<img  width="1200"  height="434"  alt="Bruno Annunciato"  src="assets/bruno-annunciato-roxo.png" />
 
 ### Senior front-end developer and shortcut crafter from Brazil
 
